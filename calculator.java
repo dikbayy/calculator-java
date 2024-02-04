@@ -5,12 +5,15 @@ import java.lang.Math;
 import java.util.Scanner;
 
 public class calculator {
+    // main function
     public static void main(String[] args) {
-        double num1, num2;
-
+        // take input from the user
         Scanner input = new Scanner(System.in);
+        
         System.out.println("Enter the numbers: ");
 
+        //store and take input from two numbers
+        double num1, num2;
         num1 = input.nextDouble();
         num2 = input.nextDouble();
 
